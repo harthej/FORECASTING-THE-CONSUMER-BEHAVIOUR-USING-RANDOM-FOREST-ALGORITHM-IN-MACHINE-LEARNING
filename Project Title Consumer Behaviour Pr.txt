@@ -1,0 +1,15 @@
+Project Title: Consumer Behaviour Prediction Using Random Forest
+Description:
+This project implements a machine learning-based solution for predicting consumer behavior categories using a Random Forest classifier. It reads transaction and customer data from an Excel file (superstore.xlsx), cleans and preprocesses the dataset, and trains a classification model based on features like customer segment, product category, order quantity, sales, region, and unit price. The target variable, behaviour, is categorized into four classes: Environmental, Individual, Organisational, and Interpersonal.
+
+Key functionalities include:
+
+Data preprocessing and label encoding
+
+Model training using the Random Forest algorithm
+
+Prediction and evaluation using confusion matrix and classification report
+
+Visualization of predicted vs. actual behavior frequencies
+
+A GUI interface (via Tkinter) for file upload and dynamic data visualization
